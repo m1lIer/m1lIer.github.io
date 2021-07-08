@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Footer; /* Гарнитура шрифта */
+    src: url(19471.ttf); /* Путь к файлу со шрифтом */
+   }
+
+html{
+  background-color: #84FF9A;
+  margin: 0;
+  padding: 0;
+}
+#header {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    display: block;
+    width: 70%;
+    height: 10%;
+}
+
+#headertext{
+  color: #545454;
+  text-align: center;
+  padding-top: 2.8%;
+  padding-bottom: 2%;
+  font-family: Footer;
+}
+#ipdiv {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    width: 5%;
+}
+#ip {
+  padding-top: 28%;
+  font-size: 150%;
+  color: #545454;
+  text-align: center;
+  font-family: Footer;
+  padding-bottom: 30%;
+}
+#maintextdiv {
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#maintext {
+    font-size: 130%;
+    padding: 5%;
+    padding-top: 8%;
+    font-family: Footer;
+    color: #545454;
+    text-align: center;
+}
+#footer {
+  box-shadow: inset 1px 0px 6px 0px #309e5c;
+  left:0px;
+  bottom:0px;
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+  height: 160px;
+  background-color: #309e5c7d;
+}
+.textdiv{
+    background: linear-gradient(333deg, #75d486, #ffffff29);
+    box-shadow: 9px 9px 20px 4px rgb(56 56 56 / 29%), -5px -5px 12px 4px rgb(255 255 255 / 34%);
+}
